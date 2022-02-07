@@ -19,6 +19,27 @@
     width: 200px;
     height: auto;
 }
+.image{
+    position: relative;
+}
+.ratings{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(0,0%,100%,.8);
+    justify-content: center;
+    border-radius: 2px;
+    padding: 0 0 0 4px;
+    font-size: 12px;
+    font-weight: 500;
+    bottom: 10px;
+    left: 12px;
+}
+.ratings i{
+    border-right: 1px solid black;
+    padding: 0 4px;
+}
 .product-info{
     padding: 5px;
 }
